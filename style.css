@@ -1,0 +1,236 @@
+/* font family
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Serif', serif;
+
+*/
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+/* scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header Styles */
+header {
+  background: #090808;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  position: sticky;
+  top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 999;
+}
+
+.header-brand {
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #f9f1f1;
+  text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url("https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-2foodgroups_vegetables_detailfeature.jpg?sfvrsn=226f1bc7_6");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  border-radius: 2px;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+}
+
+.cta-btn {
+  background-color: #55a630;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #438622;
+}
+
+/* Features Section Styles */
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.feature {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.feature img {
+  width: 80px;
+  height: 80px;
+}
+
+/* Benefits Section Styles */
+.benefits {
+  background-color: #f9f9f9;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.benefits ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.benefits li {
+  margin-bottom: 10px;
+}
+
+/* About us content */
+.about-us {
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+
+.about-us-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-text {
+  flex: 1;
+  text-align: left;
+  margin-right: 40px;
+}
+
+.about-us-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Product Showcase Section Styles */
+.product-showcase {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.product {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+}
+button {
+  padding: 5px 30px 5px 30px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  background-color: #2348aa;
+  color: white;
+  margin-bottom: 15px;
+  border-radius: 25px 0px 25px 0px;
+}
+button:hover {
+  background-color: #1678d4;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-info {
+  text-align: right;
+}

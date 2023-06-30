@@ -1,0 +1,38 @@
+/* Media Queries */
+/* Small screens */
+@media only screen and (max-width: 767px) {
+  .header {
+    width: 100%;
+    height: auto;
+  }
+
+  nav > ul > li > a {
+    font-size: 10px;
+  }
+
+  .features {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-us-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .product-showcase {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    font-size: 10px;
+  }
+}
+
+/* also make a responsive design than  i'm not using other screen sizes */
+
+/* Medium screens */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Large screens */
+@media only screen and (min-width: 1024px) {
+}
